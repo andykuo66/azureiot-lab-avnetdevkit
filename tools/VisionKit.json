@@ -1,0 +1,75 @@
+{
+  "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:1",
+  "@type": "CapabilityModel",
+  "contents": [],
+  "displayName": {
+    "en": "Azure Sphere VisionKit"
+  },
+  "implements": [
+    {
+      "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:wilson:2",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "Azure Sphere VisionKit Interface"
+      },
+      "name": "AzureSphereVisionKitInterface",
+      "schema": {
+        "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:AzureSphereSampleDeviceVisionKitInterface:2",
+        "@type": "Interface",
+        "contents": [
+          {
+            "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:manufacturer:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Manufacturer"
+            },
+            "name": "manufacturer",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:model:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Model"
+            },
+            "name": "model",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:label:2",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "label"
+            },
+            "name": "label",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:exec_time:2",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "exec_time"
+            },
+            "name": "exec_time",
+            "schema": "integer"
+          },
+          {
+            "@id": "urn:testazuresphere:AzureSphereSampleDeviceVisionKit:timestamp:2",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "timestamp"
+            },
+            "name": "timestamp",
+            "schema": "string"
+          }
+        ],
+        "displayName": {
+          "en": "Azure Sphere VisionKit Interface"
+        }
+      }
+    }
+  ],
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ]
+}
