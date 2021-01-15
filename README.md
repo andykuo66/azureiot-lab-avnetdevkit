@@ -1,2 +1,2 @@
 # azureiot-lab-avnetdevkit
-Azure IoT Lab based on Azure Sphere Avnet starter kit
+The lab is mainly derived from David Glove's git repo - https://github.com/gloveboxes/Azure-Sphere-Learning-Path
